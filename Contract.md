@@ -1,11 +1,11 @@
-An Extension to OPERA to provide updated models based on real-time performance
+Performance Modelling
 ============================================
 
 |      Meta        |                                             |
 |-----------------:|:--------------------------------------------|
 | Course           | CSE4090                                     |
 | Academic Year    | Fall 2013                                   |
-| Project title    | Evolution Of Software Projects on GitHub    | 
+| Project title    | Performance Modelling    | 
 | Supervisor name  | Zhen Ming (Jack) Jiang                      |
 | Supervisor email | zmjiang at cse dot yorku dot ca             |
 | Student name     | Marco Cirillo                               |
@@ -14,25 +14,13 @@ An Extension to OPERA to provide updated models based on real-time performance
 
 ## Project Description
 
-Software engineering data (e.g., source code repositories and bug databases) contains a wealth of information about a project's status and history. The research on Mining Software Repositories (MSR) aims to transform the data from static record-keeping repositories into knowledge, which can guide the software development process. The goal of this project is to study how large software projects on GitHub evolve over time. 
+Performance modelling is a way to predict the resources a system will require when being built or undergoing changes. There are two major ways which performance of a system can be modelled: capacity modelling, and simulation modelling. 
 
-We aim to study three key areas:
- * The number of forks (clones) a large project should expect to receive (recursively so as to include forks of forks)
- * The ratio of pull requests resulting from a fork that are accepted by an organization
- * How a fork differs from its original source over time
+### Capacity Modelling
+Capacity modelling allows for gathering information related to scaling a system, and the capacity required at each level of scaling. This is usually measured in users (ie: 10 users, 100 users, 1000 users). Additionally, capacity modelling can be used to test how different configurations (or an increase in workload) will run compared to the current configuration for the same capacity the system is currently at. 
 
-### Counting Forks
-
-A fork is a project which diverges from its parent project's codebase. A fork must be done on a software project in GitHub if a user wishes to edit a specific aspect of the project. This ammendment may translate into a pull request to the original software author so that changes can be integrated into the master codebase, or the fork may spin off into its own project, which in turn may also be forked. The greater the number of forks a project obtains, the more people are interested in the project. We aim to determine the number of forks a large software project will typically obtain, and how active the forks are based on the number of commits applied to them.
-
-### Ratio of Accepted Pull Requests
-
-On GitHub, forks can be used as a way to add a feature or fix a bug in the original codebase. This is done by forking the project, making an ammendment, and submitting a pull request. A pull request asks the original project maintainer if it the changes made in a fork are acceptable to be included in the original project. There are many reasons a pull request may be rejected, such as insufficient comments in the code, poor quality code, or disapproval of a new feature. We aim to see the relation between accepted and rejected pull requests in large projects and develop a "project friendliness" scoring system which will score projects based on their acceptance of patches.
-
-### Fork Divergence
-
-While many project forks on GitHub are to provide a bug-fix or the addition of new functionality, some forks diverge from the original codebase so much that they become their own project. We aim to look into one particular case of a project growing after a fork: [bootstrapwp](https://github.com/rachelbaker/bootstrapwp-Twitter-Bootstrap-for-WordPress), which was initially forked from [Twitter Bootstrap](https://github.com/twbs/bootstrap), but now is itself a standalone project which provides a bootstrap-based theme for the [WordPress](http://www.wordpress.org) blogging software. The project stems from one of Bootstraps 20,000 forks and continues to get pull requests for new functionality.
-
+### Simulation Modelling
+Simulation modelling involves running a simulated model of the system with variations of workload, users, requests, and delays. A simulation model can solve important aspects of the system, such as throughput, utilization and response time
 
 What the project is to achieve, a half to one page. Please describe the educational component of the project.
 
@@ -45,9 +33,7 @@ What the project is to achieve, a half to one page. Please describe the educatio
 
 ## Resources
 
- * [ghtorrent](http://www.ghtorrent.org/)
- * [Bootstrap](https://github.com/twbs/bootstrap)
- * [bootstrapwp](https://github.com/rachelbaker/bootstrapwp-Twitter-Bootstrap-for-WordPress)
+ *[OPERA]()
 
 ### Software
  * Java
@@ -55,9 +41,7 @@ What the project is to achieve, a half to one page. Please describe the educatio
 
 ## Readings
 
- * [Mining Software Repositories 2013 keynote](http://2013.msrconf.org/keynote_2.php)
- * [ghtorrent abstract](http://www.gousios.gr/bibliography/G13.html)
- * [ghtorrent whitepaper](http://www.gousios.gr/pub/ghtorrent-dataset-toolsuite.pdf)
+ * [Performance Modelling is Doable and Useful](http://www1.practicalperformanceanalyst.com/2013/08/09/performance-modeling-is-doable-and-useful-its-not-as-scary-or-difficult-as-you-might-believe/)
 
 ## Deliverables
 
