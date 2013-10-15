@@ -29,18 +29,20 @@ What the project is to achieve, a half to one page. Please describe the educatio
  *  Good programming skills in Java
  *  Good analytical and communication skills
  *  Knowledge in AI and statistics
- *  Interested in large scale software analysis 
+ *  Interested in large scale performance analysis 
 
 ## Resources
 
- *[OPERA]()
+ * [OPERA](http://www.ceraslabs.com/technologies/opera)
 
 ### Software
  * Java
- * ghtorrent
+ * [OPERA](http://www.ceraslabs.com/technologies/opera)
 
 ## Readings
 
+ * [OPERA description](http://www.ceraslabs.com/technologies/opera/opera-1)
+ * [A performance evaluation framework for Web applications](http://onlinelibrary.wiley.com/doi/10.1002/smr.1563/pdf)
  * [Performance Modelling is Doable and Useful](http://www1.practicalperformanceanalyst.com/2013/08/09/performance-modeling-is-doable-and-useful-its-not-as-scary-or-difficult-as-you-might-believe/)
 
 ## Deliverables
